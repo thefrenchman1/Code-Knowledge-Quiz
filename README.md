@@ -3,7 +3,7 @@
 
   ## Deployed site
 
-  here
+  https://thefrenchman1.github.io/Code-Knowledge-Quiz/
 
   ## Description
   
