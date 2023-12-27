@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Knowledge Quiz</title>
+    <meta name="description" content="A quiz designed to quickly test your coding skills.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/questions.js" defer></script>
+</head>
+
+<!-- Header information -->
+<header class="header">
+    <h1 class="top-left">Code Knowledge Quiz</h1>
+    <h1 class="timer"> Time Left : <span id="time"></span></h1>
+</header>
+
+<!-- Main content of questionnaire -->
+<main class="main">
+    <div id="start-screen" class="start">
+        <h2 style="text-align: center;">When you hit START, the timer will begin! For every wrong answer, 5 SECONDS will be taken away from your time! Your score will be based on the time left on the clock when you finish.</h2>
+        <h2 style="text-align: center;">Good Luck!</h2>
+        <button id="start-btn">START</button>
+    </div>
+
+    <div id="questions" class="hide">
+        <div id="answer-buttons">
+            <h2 id="question-title"></h2>
+            <div id="choices" class="choices"></div>
+        </div>
+    </div>
+    
+        <div id="end-screen" class="hide">
+            <h2>Here's how you did!</h2>
+            <p>Score : <span id="final-score"></span></p>
+            <p>
+                Enter initials: <input type="text" id="initials" max="3" />
+                <button id="submit">Submit</button>
+            </p>
+        </div>
+        
+        <div id="feedback" class="feedback hide"></div>
+    </div>
+</main>
+
+</html>
+
+<!-- Footer information -->
+<footer class="footer">
+    <h2 style="text-align: center;">Happy Coding!</h2>
+</footer>
