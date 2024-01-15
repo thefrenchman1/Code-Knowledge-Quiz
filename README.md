@@ -15,7 +15,7 @@
   
   * [Usage](#usage)
   
-* [License](#license)
+  * [License](#license)
 
   * [Contribution](#contribution)
   
@@ -46,7 +46,7 @@
   To test it out, do this: 
   
   ```
-  Check out the deployed site to check it out!
+  Check out the deployed site to test it!
   ```
   
   
